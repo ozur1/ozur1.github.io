@@ -1,0 +1,140 @@
+nav.top-nav {
+	background-color: #4AACF7;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	box-shadow: 0px 4px 4px #0003;
+	padding-left: 2em;
+}
+nav.top-nav ul {
+	list-style: none;
+	padding: 0;
+}
+nav.top-nav li {
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #ffff;
+	margin: 5px;
+	display: inline-block;
+	padding: 2px;
+	user-select: none;
+	position: relative;
+}
+nav.top-nav li:hover {
+	text-decoration: underline;
+}
+nav.top-nav .pulldown-menu {
+	display: none;
+	position: absolute;
+	background-color: white;
+	border: 1px solid #333;
+	border-radius: 4px;
+	top: 23px;
+	left: 5px;
+	width: 170px;
+}
+nav.top-nav .pulldown-menu li{
+	color: black;
+	display: block;
+	padding: 5px;
+	font-weight: 200;
+}
+nav.top-nav li:hover .pulldown-menu {
+	display: block;
+}
+
+.HomeLink {
+  color: white;
+  text-decoration: none;
+}
+
+.BioLink {
+  text-decoration: none;
+  color: black;
+}
+
+.ResLink {
+  text-decoration: none;
+  color: black;
+}
+
+.ContactLink {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+main {
+  margin-top: 90px;
+}
+
+body {
+	background-image: linear-gradient(to bottom right, white, #5BCDFD);
+	height: 2000px;
+}
+
+.Section_Header {
+  text-decoration: underline;
+}
+
+.title {
+  display: inline;
+}
+
+.project .title {
+  font-weight: bold;
+}
+
+.date {
+  display: inline;
+  float: right;
+	margin-right: 300px;
+}
+
+
+
+.Header {
+  text-align: center;
+	margin-right: 300px;
+}
+
+.paragraph {
+  text-indent: 35px;
+	margin-right: 300px;
+}
+
+
+
+
+.Name {
+	font-size: 48px;
+	text-align: center;
+}
+
+.h2 {
+	font-size: 30px;
+	text-align: center;
+}
+
+.pic1 {
+	text-align: center;
+}
+
+.recent {
+	margin-top: 60px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.pic {
+	width: 30%;
+	padding-right: 70px;
+	padding-left: 70px;
+	display: inline-block;
+}
+
+.thumbnails {
+	text-align: center;
+}
